@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    background-color: #100E0E;
+    font-family: "Oswald",sans-serif;
+}
+
+.myName {
+    width:600px;
+    height:600px;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin:-200px 0 0 -200px;
+}
+
+h1 {
+    color:#FFFFFF;
+    text-align: left;
+    font-size: 100px;
+    
+}
+
+h2 {
+    color:#FFFFFF;
+    text-align: left;
+    font-size: 100px;
+}
+
+.navbar {
+  overflow: hidden;
+
+  position: fixed;
+  width: 100%;
+}
+
+.navbar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #94E457;
+  color: black;
+}
